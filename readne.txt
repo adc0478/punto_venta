@@ -1,0 +1,18 @@
+Proyecto punto de venta
+
+Descripcion del proyecto 
+1) Sistema login y registro (laravel jetstream)
+2) Sistema para alta producto con registro de imagenes y portada, clasificacion por categorias.
+3) Manejo roles y grupo de roles y permisos (Desarrollado desde cero).
+4) Vista de productos y registro de carrito de compras (Esto ultimo con localstorange)
+5) Confirmacion de compra con registro de compra y remito.
+
+Tecnologias usadas:
+1) PHP & Laravel & Blade
+2) Jetstream
+3) Livewire
+4) Javascript con fetch
+5) HTML
+6) CSS (Tailwind)
+
+

@@ -1,0 +1,49 @@
+form{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:15px;
+  justify-items: center;
+  width:70%;
+  margin: 0 auto;
+  margin-top: 2%;
+  border: 1px solid rgba(178, 178, 178, 1);
+  box-shadow: 1px 1px 3px rgba(178, 178, 178, .5);
+  padding:5px;
+}
+form label {
+    display:grid;
+    grid-template-columns: 1fr;
+}
+form input, select{
+    width: 60%;
+    height: 40px;
+    box-sizing: border-box;
+}
+form div{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:10px;
+}
+.btn{
+    width: 100%;
+    height:40px;
+    background-color: red;
+    cursor:pointer;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+
+@media screen and (max-width:768px) {
+    form{
+        grid-template-columns: 1fr;
+        width: 98%;
+        margin-top: 10%;
+    }
+    form div{
+        grid-template-columns: 1fr;
+        width: 60%;
+    }
+    
+
+}

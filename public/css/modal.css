@@ -1,0 +1,29 @@
+.contenido{
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index:2;
+}
+.pantalla{
+   width: 60%;
+   height: 60%;
+   margin: 0 auto;
+   z-index: 3;
+   position: relative;
+}
+.pantalla span{
+    position: absolute;
+    top:0px;
+    right: 5px;
+    font-size:1.5rem;
+}
+
+
+@media screen and (max-width:768px){
+    .pantalla{
+        width: 85%;
+        height: 85%;
+    }
+
+}
