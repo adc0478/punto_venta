@@ -10,6 +10,7 @@ use App\Http\Controllers\productosController;
 use App\Http\Livewire\ImageCreateComponent;
 use App\Http\Controllers\ventaControler;
 use Illuminate\Routing\Route as RoutingRoute;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*

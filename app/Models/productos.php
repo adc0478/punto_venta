@@ -56,7 +56,7 @@ class productos extends Model
      *@param int $id ID utilizado para buscar un elemento puntual de productos
      *@param string $str Cadena de consulta con respecto al name del producto
      *@param array $cat Arreglo que contiene las categorias a filtrar ej. ['frio','lacteos']
-     * @return string[] retorna lista de productos con todas sus propiedades
+     * @return string[] retorna lista de productos con todas sus propiedades con paginacion
      */
     public function consulta($id = "", $str = "", $cat = [])
     {
